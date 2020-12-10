@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a89ab086-5b5b-41fa-9e11-4e8a7614407d" name="NDMA" url="http://portal.ndma.org.sz">
+        <fileTransfer rootFolder="/var/www/html" accessType="SFTP" host="portal.ndma.org.sz" port="22" sshConfigId="2d9bb272-bfa5-4bcd-9d14-a6d62f6a08dd" sshConfig="deployer@portal.ndma.org.sz:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
